@@ -1,3 +1,8 @@
 -✅  0.1: Copy orignal test
-- 0.2 Add iframe element
-- 0.3
+- ✅  0.2 Add iframe element
+- 0.3: Find necessary blocks to add
+    - range
+    - meter
+    - canvas
+    - svg
+- 0.4: Dropdown

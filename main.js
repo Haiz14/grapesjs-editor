@@ -40,8 +40,15 @@ const editor = grapesjs.init({
 
 	pluginsOpts: {
 		[grapesjsPreset]: {
-			textCleanCanvas: 'Clean the canvas xDD',}
+			textCleanCanvas: 'Clean the canvas xDD',},
+		[grapesjsTuiImageEditor]: {
+			config: {
+				includeUI: {
+					initMenu: 'filter',
+				}
+			}
+		},
 	},
 });
-// add traits
+
 addExtraBlocks(editor)
