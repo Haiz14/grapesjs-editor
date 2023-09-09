@@ -1,3 +1,5 @@
+import {addExtraBlocks} from './addBlocks.js';
+
 import grapesjs from 'grapesjs';
 import 'grapesjs/dist/css/grapes.min.css';
 import grapesjsPreset from 'grapesjs-preset-webpage';
@@ -22,8 +24,8 @@ const editor = grapesjs.init({
 	storageManager: false,
 	plugins: [grapesjsPreset,
 		gjsBlocksBasic,
-		grapesjsPluginForms,
 		grapesjsComponentCountdown,
+		grapesjsPluginForms,
 		grapesjsPluginExport,
 		grapesjsTabs,
 		grapesjsCustomCode,
@@ -34,9 +36,12 @@ const editor = grapesjs.init({
 		grapesjsTyped,
 		grapesjsStyleBg,
 	],
+	allowScripts: 1,
 
 	pluginsOpts: {
 		[grapesjsPreset]: {
 			textCleanCanvas: 'Clean the canvas xDD',}
 	},
 });
+// add traits
+addExtraBlocks(editor)
