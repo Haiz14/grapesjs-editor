@@ -19,7 +19,8 @@ execSync("npm run build");
 
 console.log("Moving to doc branch...")
 execSync("git checkout " + BRANCH_TO_SAVE);
-execSync("rm -rf " + getFilesToDelete().join(" "));
+execSync("echo " + getFilesToDelete().join(" "));
+process.exit(0);
 execSync("mv dist/* .");
 execSync("rm -rf dist");
 
