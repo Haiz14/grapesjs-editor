@@ -3,6 +3,7 @@
 - 0.3: Find necessary blocks to add
     - ✅ range
     - ✅ meter
-    - canvas
+    - ✅ canvas
     - 💤 svg
 - 0.4: Dropdown
+- 0.5 svg-code
