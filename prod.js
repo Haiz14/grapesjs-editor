@@ -15,18 +15,16 @@ console.log("Installing dependencies...")
 execSync("pnpm i");
 
 console.log("Building...")
-//execSync("npm run build");
+execSync("npm run build");
 
 console.log("Moving to doc branch...")
 execSync("git checkout " + BRANCH_TO_SAVE);
+
 console.log("Deleting old files...")
-console.log("rm " + getFilesToDelete().join(" "));
-process.exit(0);
-execSync("echo " + getFilesToDelete().join(" "));
+execSync("rm -rf " + getFilesToDelete().join(" "));
 execSync("mv dist/* .");
 execSync("rm -rf dist");
 
-// push
 console.log("Pushing to github...")
 execSync("git add .");
 execSync("git commit -m 'prod: UPDATED production site'");
