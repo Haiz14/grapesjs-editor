@@ -2,7 +2,7 @@ import {addExtraBlocks} from './addBlocks.js';
 
 import grapesjs from 'grapesjs';
 import 'grapesjs/dist/css/grapes.min.css';
-import grapesjsPreset from 'grapesjs-preset-webpage';
+import ckEditor from 'grapesjs-plugin-ckeditor'
 import gjsBlocksBasic from 'grapesjs-blocks-basic';
 import grapesjsPluginForms from 'grapesjs-plugin-forms';
 import grapesjsComponentCountdown from 'grapesjs-component-countdown';
@@ -22,7 +22,7 @@ const editor = grapesjs.init({
 	width: 'auto',
 	fromElement: true,
 	storageManager: false,
-	plugins: [grapesjsPreset,
+	plugins: [
 		gjsBlocksBasic,
 		grapesjsComponentCountdown,
 		grapesjsPluginForms,
@@ -35,12 +35,11 @@ const editor = grapesjs.init({
 		grapesjsTuiImageEditor,
 		grapesjsTyped,
 		grapesjsStyleBg,
+		ckEditor,
 	],
 	allowScripts: 1,
 
 	pluginsOpts: {
-		[grapesjsPreset]: {
-			textCleanCanvas: 'Clean the canvas xDD',},
 		[grapesjsTuiImageEditor]: {
 			config: {
 				includeUI: {
