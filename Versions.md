@@ -4,6 +4,7 @@
     - ✅ range
     - ✅ meter
     - ✅ canvas
-    - 💤 svg
-- 0.4: Dropdown
-- 0.5 svg-code
+    - 💤 svg-code
+- 0.4: make icon black and white
+- 0.5: Dropdown
+- 0.6 svg-code
