@@ -18,7 +18,7 @@ import grapesjsStyleBg from 'grapesjs-style-bg';
 
 const editor = grapesjs.init({
 	container: '#gjs',
-	height: '80vh',
+	height: '98vh',
 	width: 'auto',
 	fromElement: true,
 	storageManager: false,
