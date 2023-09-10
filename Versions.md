@@ -8,3 +8,7 @@
 - 0.4: make icon black and white
 - 0.5: Dropdown
 - 0.6 svg-code
+
+💤:
+- make it pwa
+- publish it on android
