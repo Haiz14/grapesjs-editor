@@ -20,11 +20,11 @@ export default {
 		}
 	},
 	data: {
-		label: 'range',
+		label: 'Range',
 		content: '<input type="range" style="padding: 30px;"/>',
 		activate: true,
 		media: rangeSvg,
-		category: 'Basic',
+		category: 'Extra',
 		resizeable: true,
 
 	},
