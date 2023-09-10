@@ -1,0 +1,95 @@
+{
+  "hash": "53b55324",
+  "browserHash": "92da5292",
+  "optimized": {
+    "grapesjs": {
+      "src": "../../node_modules/.pnpm/grapesjs@0.21.5/node_modules/grapesjs/dist/grapes.min.js",
+      "file": "grapesjs.js",
+      "fileHash": "ec3222b1",
+      "needsInterop": true
+    },
+    "grapesjs-plugin-ckeditor": {
+      "src": "../../node_modules/.pnpm/grapesjs-plugin-ckeditor@1.0.1/node_modules/grapesjs-plugin-ckeditor/dist/index.js",
+      "file": "grapesjs-plugin-ckeditor.js",
+      "fileHash": "8a1cb8e8",
+      "needsInterop": true
+    },
+    "grapesjs-blocks-basic": {
+      "src": "../../node_modules/.pnpm/grapesjs-blocks-basic@1.0.2/node_modules/grapesjs-blocks-basic/dist/index.js",
+      "file": "grapesjs-blocks-basic.js",
+      "fileHash": "b9c1a7c3",
+      "needsInterop": true
+    },
+    "grapesjs-plugin-forms": {
+      "src": "../../node_modules/.pnpm/grapesjs-plugin-forms@2.0.6/node_modules/grapesjs-plugin-forms/dist/index.js",
+      "file": "grapesjs-plugin-forms.js",
+      "fileHash": "4b592bf7",
+      "needsInterop": true
+    },
+    "grapesjs-component-countdown": {
+      "src": "../../node_modules/.pnpm/grapesjs-component-countdown@1.0.2/node_modules/grapesjs-component-countdown/dist/index.js",
+      "file": "grapesjs-component-countdown.js",
+      "fileHash": "80dddd98",
+      "needsInterop": true
+    },
+    "grapesjs-plugin-export": {
+      "src": "../../node_modules/.pnpm/grapesjs-plugin-export@1.0.12/node_modules/grapesjs-plugin-export/dist/index.js",
+      "file": "grapesjs-plugin-export.js",
+      "fileHash": "4c8e7290",
+      "needsInterop": true
+    },
+    "grapesjs-tabs": {
+      "src": "../../node_modules/.pnpm/grapesjs-tabs@1.0.6/node_modules/grapesjs-tabs/dist/grapesjs-tabs.min.js",
+      "file": "grapesjs-tabs.js",
+      "fileHash": "c3ddd5a6",
+      "needsInterop": true
+    },
+    "grapesjs-custom-code": {
+      "src": "../../node_modules/.pnpm/grapesjs-custom-code@1.0.2/node_modules/grapesjs-custom-code/dist/index.js",
+      "file": "grapesjs-custom-code.js",
+      "fileHash": "e106e298",
+      "needsInterop": true
+    },
+    "grapesjs-touch": {
+      "src": "../../node_modules/.pnpm/grapesjs-touch@0.1.1/node_modules/grapesjs-touch/dist/grapesjs-touch.min.js",
+      "file": "grapesjs-touch.js",
+      "fileHash": "95cd899c",
+      "needsInterop": true
+    },
+    "grapesjs-parser-postcss": {
+      "src": "../../node_modules/.pnpm/grapesjs-parser-postcss@1.0.1/node_modules/grapesjs-parser-postcss/dist/index.js",
+      "file": "grapesjs-parser-postcss.js",
+      "fileHash": "747c3143",
+      "needsInterop": true
+    },
+    "grapesjs-tooltip": {
+      "src": "../../node_modules/.pnpm/grapesjs-tooltip@0.1.8/node_modules/grapesjs-tooltip/dist/index.js",
+      "file": "grapesjs-tooltip.js",
+      "fileHash": "5bb0429a",
+      "needsInterop": true
+    },
+    "grapesjs-tui-image-editor": {
+      "src": "../../node_modules/.pnpm/grapesjs-tui-image-editor@1.0.2/node_modules/grapesjs-tui-image-editor/dist/index.js",
+      "file": "grapesjs-tui-image-editor.js",
+      "fileHash": "82213418",
+      "needsInterop": true
+    },
+    "grapesjs-typed": {
+      "src": "../../node_modules/.pnpm/grapesjs-typed@2.0.1/node_modules/grapesjs-typed/dist/index.js",
+      "file": "grapesjs-typed.js",
+      "fileHash": "3042fd50",
+      "needsInterop": true
+    },
+    "grapesjs-style-bg": {
+      "src": "../../node_modules/.pnpm/grapesjs-style-bg@2.0.2/node_modules/grapesjs-style-bg/dist/index.js",
+      "file": "grapesjs-style-bg.js",
+      "fileHash": "3316cc0c",
+      "needsInterop": true
+    }
+  },
+  "chunks": {
+    "chunk-76J2PTFD": {
+      "file": "chunk-76J2PTFD.js"
+    }
+  }
+}
