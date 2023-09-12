@@ -6,7 +6,16 @@
     - ✅ canvas
     - 💤 svg-code
 -✅  0.4: make icon black and white
+- 0.5: Add jsdoc types
+    - ✅ type for editor
+    - ✅ blockConfig
+    - ✅ redo blocks/* according to block config
+        - ✅ meter, range, iframe
+        - ✅  camvas dropdown
 - 0.5: Dropdown
+    - create skeleton dropdown
+    - copy docs trait
+    - modify it
 - 0.6 svg-code
 
 💤:
