@@ -32,6 +32,9 @@ dependencies:
   grapesjs-preset-webpage:
     specifier: ^1.0.3
     version: 1.0.3
+  grapesjs-script-editor:
+    specifier: ^1.0.3
+    version: 1.0.3
   grapesjs-style-bg:
     specifier: ^2.0.2
     version: 2.0.2
@@ -378,6 +381,10 @@ packages:
 
   /grapesjs-preset-webpage@1.0.3:
     resolution: {integrity: sha512-C0VOKLAdhv0j1f81c6F2uk3JpJvxgXl5DeHUtDa5qGf/HZzaCmQxsvd8Re3Oh5Cah4uUCqoi9uB5FYx3hLND2w==}
+    dev: false
+
+  /grapesjs-script-editor@1.0.3:
+    resolution: {integrity: sha512-CL4BGKIavCqAoFINqo8sYvht2A1Y10henA2w8tnyqqadigHPNm73684AqxF9gEgfK+4vS+2MqzoMwHmQHvmYdg==}
     dev: false
 
   /grapesjs-style-bg@2.0.2:

@@ -1,6 +1,6 @@
 //@ts-check
 import iframe from "./blocks/iframe.js";
-import range, { blockConfig } from "./blocks/range.js";
+import range from "./blocks/range.js";
 import meter from "./blocks/meter.js";
 import canvas from "./blocks/canvas.js";
 import * as Types from './types.js';

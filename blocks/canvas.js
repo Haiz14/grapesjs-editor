@@ -1,7 +1,12 @@
+//@ts-check
 import {canvasSvg} from '../svg.js';
-export default {
+import * as Types from '../types.js';
+
+
+/** @type {Types.blockConfig}*/
+const blockConfig = {
 	name: 'canvas',
-	trait: {
+	componentType: {
 		isComponent: (el) => el.tagName == 'CANVAS',
 		model: {
 			defaults: {
@@ -15,12 +20,13 @@ export default {
 			},
 		}
 	},
-	data: {
+	blockProperties: {
 		label: 'Canvas',
 		content: '<canvas></canvas>',
 		activate: true,
 		media: canvasSvg,
 		category: 'Extra',
-		resizeable: true,
 	},
 }
+
+export default blockConfig

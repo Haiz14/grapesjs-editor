@@ -2,6 +2,7 @@ import {addExtraBlocks} from './addBlocks.js';
 
 import grapesjs from 'grapesjs';
 import 'grapesjs/dist/css/grapes.min.css';
+import gjsCode from 'grapesjs-script-editor'
 import ckEditor from 'grapesjs-plugin-ckeditor'
 import gjsBlocksBasic from 'grapesjs-blocks-basic';
 import grapesjsPluginForms from 'grapesjs-plugin-forms';
@@ -23,6 +24,7 @@ const editor = grapesjs.init({
 	fromElement: true,
 	storageManager: false,
 	plugins: [
+		gjsCode,
 		gjsBlocksBasic,
 		grapesjsComponentCountdown,
 		grapesjsPluginForms,
@@ -37,6 +39,7 @@ const editor = grapesjs.init({
 		grapesjsStyleBg,
 		ckEditor,
 	],
+	jsInHtml: true,
 	allowScripts: 1,
 
 	pluginsOpts: {

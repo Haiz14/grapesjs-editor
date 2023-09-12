@@ -1,7 +1,11 @@
+//@ts-check
 import {iframeSvg} from "../svg.js"
-export default {
+import * as Types from "../types.js"
+
+/** @type {Types.blockConfig}*/
+const blockConfig = {
 	name: "iframe",
-	trait:{
+	componentType: {
 	isComponent: el => el.tagName === "IFRAME",
 		model: {
 			defaults: {
@@ -14,17 +18,15 @@ export default {
 			}
 		}
 	},
-	data:{
+	blockProperties:{
 		label: "iframe",
-		type: "iframe",
 		content: "<iframe> </iframe>",
 		attributes: { class: "fa fa-iframe" },
-		selectable: true,
 		category: "Basic",
 		media: iframeSvg,
 		activate: true,
 	},
 }
 
-
+export default blockConfig
 

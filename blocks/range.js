@@ -1,8 +1,13 @@
+//@ts-check
 import {rangeSvg} from '../svg.js';
-export default {
+import * as Types from '../types.js';
+
+// export default
+/** @type {Types.blockConfig}*/
+const blockConfig = {
 	name: 'range',
-	trait: {
-		isComponent: (el) => el.tagName == 'INPUT' && el.type == 'range',
+	componentType: {
+		isComponent: (el) => el.tagName == 'INPUT' && el.getAttribute("type") == "range",
 		model: {
 			defaults: {
 				resizable: true,
@@ -19,13 +24,14 @@ export default {
 			},
 		}
 	},
-	data: {
+	blockProperties: {
 		label: 'Range',
-		content: '<input type="range" style="padding: 30px;"/>',
+		content: '<input type="range"/>',
 		activate: true,
 		media: rangeSvg,
 		category: 'Extra',
-		resizeable: true,
 
 	},
 }
+
+export default blockConfig;

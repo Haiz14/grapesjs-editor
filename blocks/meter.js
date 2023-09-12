@@ -1,7 +1,12 @@
+//@ts-check
 import {meterSvg} from "../svg.js"
-export default {
+import * as Types from "../types.js"
+
+// export default 
+/** @type {Types.blockConfig}*/
+const blockConfig = {
 	name: "meter",
-	trait:{
+	componentType:{
 	isComponent: el => el.tagName === "METER",
 		model: {
 			defaults: {
@@ -18,16 +23,14 @@ export default {
 			}
 		}
 	},
-	data:{
+	blockProperties:{
 		label: "meter",
-		type: "meter",
 		content: "<meter></meter>",
-		selectable: true,
 		category: "Extra",
 		media: meterSvg,
 		activate: true,
 	},
 }
 
-
+export default blockConfig
 
